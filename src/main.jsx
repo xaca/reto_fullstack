@@ -1,8 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import Login from './login/Login.jsx';
+import Registro from './registro/Registro.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1> Talk is cheap. Show me the code. </h1>
+    <Registro title="Registro" />
+    <Login />
   </StrictMode>,
 )
