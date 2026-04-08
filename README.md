@@ -2,6 +2,9 @@
 
 Reto para practicar las habilidades de un desarrollador fullstack moderno.
 
+> Este repositorio es el punto de partida. Clona este proyecto y usa su contenido como base para desarrollar paso a paso.
+> Trabaja con commits pequeños y claros desde aquí.
+
 ## 🇪🇸 Menú de contenido
 
 ### Instrucciones en Español
@@ -77,12 +80,12 @@ Se permite reutilizar código de internet, citando las fuentes. El trabajo es in
 - Primer commit: "docs: template de referencia seleccionada"
 
 ### Paso 2: Configuración del Proyecto
-- Crea un nuevo proyecto con `npm create vite@latest -- --template react` o `npx create-react-app`.
+- Usa este repositorio como base para tu proyecto. Revisa la estructura existente y confirma que la aplicación corre antes de cambiarla.
 - Instala las dependencias necesarias:
   ```bash
   npm install tailwindcss zustand axios
   ```
-- Configura Tailwind CSS en tu proyecto.
+- Configura Tailwind CSS si aún no está listo.
 - Primer commit: "feat: proyecto inicial con React y Tailwind"
 
 ### Paso 3: Crear Datos Simulados (Mockdata)
@@ -333,12 +336,12 @@ Reusing code from the internet is allowed, citing sources. The work is individua
 - First commit: "docs: reference template selected"
 
 ### Step 2: Project Setup
-- Create a new project with `npm create vite@latest -- --template react` or `npx create-react-app`.
+- Use this repository as the base for your project. Review the existing structure and make sure the app runs before you change it.
 - Install necessary dependencies:
   ```bash
   npm install tailwindcss zustand axios
   ```
-- Configure Tailwind CSS in your project.
+- Configure Tailwind CSS if it is not ready.
 - First commit: "feat: initial project with React and Tailwind"
 
 ### Step 3: Create Mock Data
