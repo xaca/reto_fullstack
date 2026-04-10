@@ -1,4 +1,4 @@
-import Title from "../components/athoms/Title";
+import Title from "../components/atoms/Title";
 function Registro({title}) {
     return (<div className="bg-green-500">
         <Title title="Registro" />
