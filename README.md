@@ -11,19 +11,19 @@ Reto para practicar las habilidades de un desarrollador fullstack moderno.
 - 🇪🇸 [Enunciado](#es-enunciado)
 - 🇪🇸 [Funcionalidades](#es-funcionalidades)
 - 🇪🇸 [Tecnologías Requeridas](#es-tecnologías-requeridas)
+- 🇪🇸 [Instrucciones de uso](#es-instrucciones-de-uso)
 - 🇪🇸 [Instrucciones Paso a Paso](#es-instrucciones-paso-a-paso)
 - 🇪🇸 [Tips Importantes](#es-tips-importantes)
 - 🇪🇸 [Información de Interés](#es-información-de-interés)
-- 🇪🇸 [Instrucciones de uso](#es-instrucciones-de-uso)
 
 ### English Menu of Contents
 - 🇬🇧 [Statement](#en-statement)
 - 🇬🇧 [Features](#en-features)
 - 🇬🇧 [Required Technologies](#en-required-technologies)
+- 🇬🇧 [How to use](#en-how-to-use)
 - 🇬🇧 [Step by Step Instructions](#en-step-by-step-instructions)
 - 🇬🇧 [Important Tips](#en-important-tips)
 - 🇬🇧 [Resources](#en-resources)
-- 🇬🇧 [How to use](#en-how-to-use)
 
 ---
 
@@ -67,6 +67,41 @@ Se permite reutilizar código de internet, citando las fuentes. El trabajo es in
 - **Gestión de estado y persistencia**: Zustand (recomendado) o Context API con localStorage.
 - **API**: Usar https://fakestoreapi.com/ para datos de productos y usuarios (perfecta para ecommerce).
 - **Backend (Bonus)**: Firebase (Authentication, Firestore) para estudiantes que quieran ir más allá.
+
+---
+
+## 🇪🇸 Instrucciones de uso
+1. Clone el repositorio
+  ```bash
+  git clone https://github.com/xaca/reto_fullstack.git
+  ```
+2. Borra la carpeta .git para evitar confusiones con los commits
+   ```bash
+   rm -rf .git
+   ```
+3. Inicializa un nuevo repositorio git
+   ```bash
+   git init
+   ```
+4. Agrega todos los archivos y haz el commit inicial
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   ```
+5. Crea un nuevo repositorio en GitHub y sube tu repositorio local a GitHub
+   ```bash
+    git remote add origin [url_de_tu_repositorio]
+    git branch -M main
+    git push -u origin main
+    ```
+6. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+7. Ejecuta el proyecto:
+   ```bash
+   npm run dev
+   ```
 
 ---
 
@@ -248,40 +283,6 @@ Se permite reutilizar código de internet, citando las fuentes. El trabajo es in
 
 ---
 
-## 🇪🇸 Instrucciones de uso
-1. Clone el repositorio
-  ```bash
-  git clone https://github.com/xaca/reto_fullstack.git
-  ```
-2. Borra la carpeta .git para evitar confusiones con los commits
-   ```bash
-   rm -rf .git
-   ```
-3. Inicializa un nuevo repositorio git
-   ```bash
-   git init
-   ```
-4. Agrega todos los archivos y haz el commit inicial
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   ```
-5. Crea un nuevo repositorio en GitHub y sube tu repositorio local a GitHub
-   ```bash
-    git remote add origin
-    git branch -M main
-    git push -u origin main
-    ```
-6. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-7. Ejecuta el proyecto:
-   ```bash
-   npm run dev
-   ```
-
----
 
 ## 🇬🇧 Statement
 
@@ -323,6 +324,47 @@ Reusing code from the internet is allowed, citing sources. The work is individua
 - **State management and persistence**: Zustand (recommended) or Context API with localStorage.
 - **API**: Use https://fakestoreapi.com/ for product and user data (perfect for ecommerce).
 - **Backend (Bonus)**: Firebase (Authentication, Firestore) for students who want to go further.
+
+---
+
+## 🇬🇧 How to use
+1. Clone the repository
+  ```bash
+  git clone https://github.com/xaca/reto_fullstack.git
+   ```
+3. Removes .git folder to avoid confusion with commits
+   ```bash
+   rm -rf .git
+   ```
+4. Initialize a new git repository
+   ```bash
+   git init
+   ```
+5. Add all files and make the initial commit
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   ```
+6. Create a new repository on GitHub and push your local repository to GitHub
+   ```bash
+    git remote add origin [url_of_your_repository]
+    git branch -M main
+    git push -u origin main
+    ```
+7. Install dependencies:
+   ```bash
+   npm install
+   ```
+8. Run the project:
+   ```bash
+   npm run dev
+   ```
+
+- Product gallery loaded dynamically
+- Product pagination
+- Product search
+- Shopping cart
+- Checkout preview
 
 ---
 
@@ -501,47 +543,6 @@ Reusing code from the internet is allowed, citing sources. The work is individua
 - **Responsive Design**: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
 - **Axios (HTTP client)**: https://axios-http.com/
 - **Vite (Build tool)**: https://vitejs.dev/
-
----
-
-## 🇬🇧 How to use
-1. Clone the repository
-  ```bash
-  git clone https://github.com/xaca/reto_fullstack.git
-   ```
-3. Removes .git folder to avoid confusion with commits
-   ```bash
-   rm -rf .git
-   ```
-4. Initialize a new git repository
-   ```bash
-   git init
-   ```
-5. Add all files and make the initial commit
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   ```
-6. Create a new repository on GitHub and push your local repository to GitHub
-   ```bash
-    git remote add origin
-    git branch -M main
-    git push -u origin main
-    ```
-7. Install dependencies:
-   ```bash
-   npm install
-   ```
-8. Run the project:
-   ```bash
-   npm run dev
-   ```
-
-- Product gallery loaded dynamically
-- Product pagination
-- Product search
-- Shopping cart
-- Checkout preview
 
 ---
 
