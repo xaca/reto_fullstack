@@ -8,22 +8,22 @@ Reto para practicar las habilidades de un desarrollador fullstack moderno.
 ## <img src="https://flagcdn.com/w40/co.png" width="30"> Menú de contenido
 
 ### Instrucciones en Español
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Enunciado](#es-enunciado)
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Funcionalidades](#es-funcionalidades)
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Tecnologías Requeridas](#es-tecnologías-requeridas)
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Instrucciones de uso](#es-instrucciones-de-uso)
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Instrucciones Paso a Paso](#es-instrucciones-paso-a-paso)
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Tips Importantes](#es-tips-importantes)
-- <img src="https://flagcdn.com/w40/co.png" width="20"> [Información de Interés](#es-información-de-interés)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Enunciado](#enunciado)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Funcionalidades](#funcionalidades)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Tecnologías Requeridas](#tecnologías-requeridas)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Instrucciones de uso](#instrucciones-de-uso)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Instrucciones Paso a Paso](#instrucciones-paso-a-paso)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Tips Importantes](#tips-importantes)
+- <img src="https://flagcdn.com/w40/co.png" width="20"> [Información de Interés](#información-de-interés)
 
 ### English Menu of Contents
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [Statement](#en-statement)
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [Features](#en-features)
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [Required Technologies](#en-required-technologies)
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [How to use](#en-how-to-use)
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [Step by Step Instructions](#en-step-by-step-instructions)
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [Important Tips](#en-important-tips)
-- <img src="https://flagcdn.com/w40/us.png" width="20"> [Resources](#en-resources)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [Statement](#statement)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [Features](#features)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [Required Technologies](#required-technologies)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [How to use](#how-to-use)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [Step by Step Instructions](#step-by-step-instructions)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [Important Tips](#important-tips)
+- <img src="https://flagcdn.com/w40/us.png" width="20"> [Resources](#resources)
 
 ---
 
