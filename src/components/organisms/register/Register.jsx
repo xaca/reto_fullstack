@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import MOCK_USERS from "../../../mockdata/mock_users"
+import { registerFullUser } from "../../../firebase/auth"
+import axios from "axios";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -18,7 +20,7 @@ const Register = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
 
@@ -28,6 +30,7 @@ const Register = () => {
       return;
     }
 
+    /*
     // Validar email único
     const existingUsers = JSON.parse(localStorage.getItem('registeredUsers') || '[]');
     const allUsers = [...MOCK_USERS, ...existingUsers];
@@ -53,6 +56,15 @@ const Register = () => {
 
     // Navegar a login
     navigate('/login');
+    */
+
+    const respuesta = await registerFullUser(formData);
+
+    if (respuesta.success) {
+      navigate('/login');
+    } else {
+      setError(respuesta.error);
+    }
   };
 
   return (
@@ -60,7 +72,7 @@ const Register = () => {
       {/* Reducción de max-w y padding para evitar el scroll vertical */}
       <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transition-all">
         <div className="p-6 md:p-10">
-          
+
           <header className="mb-6 text-center">
             <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Crear cuenta</h2>
             <p className="text-gray-500 text-sm mt-1">Únete a nuestra comunidad hoy mismo</p>
@@ -74,7 +86,7 @@ const Register = () => {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
-              
+
               {/* Columna Izquierda: Información Personal */}
               <div className="space-y-4">
                 <div>
